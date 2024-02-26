@@ -7,7 +7,7 @@
     display: inline-block;
     background-color: #f3f5fc;
     display: inline-block ;
-
+    vertical-align: top;
 }
 .logo{
     border: 1px solid black;
@@ -21,20 +21,38 @@
     display: inline-block ;
 }
 
-.encript{
-    border: 1px solid black;
-    background-color: red;
-    width: 30.4%;
-    display: inline-block;
+.encript .encript2 {
 
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    background-color: red;
+    
 
 }
 
-.textArea {
-    width: 69%;
-    border: 1px solid black;
-    background-color: #f3f5fc;
-    display: inline-block ;
+
+
+.textArea li{
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+
 }
 
 .botones{
@@ -42,4 +60,6 @@
     background-color: #f3f5fc;
     display: inline-block;
     width: 69%;
+    vertical-align:sub;
+    
 }
