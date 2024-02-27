@@ -1,65 +1,9 @@
 
-.header{
-    
-    border-radius: 1px;
-    border: 1px solid blue;
-    width: 69%;
-    display: inline-block;
-    background-color: #f3f5fc;
-    display: inline-block ;
-    vertical-align: top;
-}
-.logo{
-    border: 1px solid black;
-    background-color: #f3f5fc;
+.head{
+    background-color: aqua;
+
 }
 
-.alura{
-    margin-top: 30px;
-    padding-left: 48px;
-    width: 30px;
-    display: inline-block ;
-}
-
-.encript .encript2 {
-
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 40px 20px;
-    box-sizing: border-box;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 30px;
+.aside{
     background-color: red;
-    
-
-}
-
-
-
-.textArea li{
-
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 40px 20px;
-    box-sizing: border-box;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 30px;
-
-}
-
-.botones{
-    border: 1px solid black;
-    background-color: #f3f5fc;
-    display: inline-block;
-    width: 69%;
-    vertical-align:sub;
-    
 }
