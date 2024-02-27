@@ -1,9 +1,23 @@
 
-.head{
-    background-color: aqua;
+*{
+    background-color: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 3%;
+}
+
+main{    
+    display:flex;
+}
+
+.texto{
 
 }
 
-.aside{
-    background-color: red;
-}
