@@ -15,13 +15,13 @@
     </header>
     <main>
         <section>
-            <textarea class="texto"  cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <textarea id="textoAEncriptar" class="texto"  cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
             <div>
-                <h6 class="minus">Solo letras minúsculas y sin acentos</h6>                
+                <h6 class="minus">&#10069 Solo letras minúsculas y sin acentos</h6>                
             </div>
             <div class="botones">
-                <button class="boton-encriptar">Encriptar</button>
-                <button class="boton-desencriptar">Desencriptar</button>
+                <button onclick="encriptar();" class="boton-encriptar">Encriptar</button>
+                <button onclick="desencriptar(); " class="boton-desencriptar">Desencriptar</button>
             </div>
         </section>
 
@@ -33,7 +33,9 @@
         </section>
     </main>
 
+    <script src="app.js" defer>
 
+    </script>
 
 </body>
 </html>

@@ -81,5 +81,9 @@ main{
     margin-top: 650px;
     position: absolute;
     width: 336px;
+}
 
+.minus{
+    color: #495057;
+    font-size: 18px;
 }
