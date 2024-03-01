@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 <body>
     <header class="head">
-        <img src="images/logo-alura.png" alt="imagen de logo de alura" class="logo">
+        <img src="images/logo-alura.png" alt="imagen de logo de alura" id="imagenTextArea" class="logo" >
     </header>
     <main>
         <section>
@@ -26,9 +26,9 @@
         </section>
 
         <section>
-            <textarea  class="msgencript" cols="20" rows="10"></textarea>
+            <textarea id="mensaje" class="msgencript" cols="20" rows="10"  disabled  ></textarea>
             <div>
-                <button class="copiar">copiar</button>
+                <button onclick="copiarTexto()" class="copiar">copiar</button>
             </div>
         </section>
     </main>
