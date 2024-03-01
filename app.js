@@ -8,7 +8,6 @@ function encriptar(){
     mensaje.style.background = "none"
 }
 
-
 function desencriptar(){
 
     let textvaluedes = document.getElementById("textoAEncriptar").value;
@@ -20,9 +19,14 @@ function desencriptar(){
 
 function copiarTexto(){
   
-    let texMen = document.getElementById("msgencript");
+    let copytext = document.querySelector("msgencript");
+    copytext.querySelector("butonCopy").addEventListener("click",function(){
+       let input = copytext.querySelector("input.text")
+       input.select();
+       document.execCommand("copy");
+       copytext.classList.add("active");
+    });
 
     navigator.clipboard.writeText(texMen.textContent)
-
     
 }
