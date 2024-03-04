@@ -15,6 +15,9 @@ function desencriptar(){
     let texdesencriptado = (textvaluedes.replaceAll("enter","e").replaceAll("imes","i").replaceAll("ai","a").replaceAll("ober","o").replaceAll("ufat","u") );
     mensaje.value = texdesencriptado;
     document.getElementById("mensaje").setAttribute('disable','false')
+    mensaje.style.background = "none"
+    textoAEncriptar.value = '';
+
 }
 
 function copiarTexto(){
