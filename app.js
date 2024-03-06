@@ -33,3 +33,4 @@ function copiarTexto(){
     navigator.clipboard.writeText(texMen.textContent)
     
 }
+
